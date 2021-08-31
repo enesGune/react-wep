@@ -1,6 +1,7 @@
 .home-page {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     h1 {
         color: $red;
         font-size: 80px;
