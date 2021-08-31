@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "hondacom";
+    src:url("../fonts/hondacom.eot");
+    src:url("../fonts/hondacom.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/hondacom.woff") format("woff"),
+    url("../fonts/hondacom.ttf") format("truetype"),
+    url("../fonts/hondacom.svg#hondacom") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+
+    font-family: "hondacom" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 20px;
+}
+.icon-360:before {
+  content: "\61";
+}
+.icon-360-circle:before {
+  content: "\62";
+}
+.icon-360-tour:before {
+  content: "\63";
+}
+.icon-advanced-security:before {
+  content: "\64";
+}
+.icon-choose:before {
+  content: "\65";
+}
+.icon-close:before {
+  content: "\66";
+}
+.icon-close-2:before {
+  content: "\67";
+}
+.icon-comfort:before {
+  content: "\68";
+}
+.icon-connecting:before {
+  content: "\69";
+}
+.icon-correct:before {
+  content: "\6a";
+}
+.icon-down-arr:before {
+  content: "\6b";
+}
+.icon-drive:before {
+  content: "\6c";
+}
+.icon-fb:before {
+  content: "\6d";
+}
+.icon-filter:before {
+  content: "\6e";
+}
+.icon-honda-logo:before {
+  content: "\6f";
+}
+.icon-instagram:before {
+  content: "\70";
+}
+.icon-left-arr:before {
+  content: "\71";
+}
+.icon-left-arr-1:before {
+  content: "\72";
+}
+.icon-location:before {
+  content: "\73";
+}
+.icon-minus:before {
+  content: "\74";
+}
+.icon-more:before {
+  content: "\75";
+}
+.icon-multiply:before {
+  content: "\76";
+}
+.icon-notice:before {
+  content: "\77";
+}
+.icon-percent:before {
+  content: "\78";
+}
+.icon-performance:before {
+  content: "\79";
+}
+.icon-plus:before {
+  content: "\7a";
+}
+.icon-price-tag-active:before {
+  content: "\41";
+}
+.icon-price-tag-left:before {
+  content: "\42";
+}
+.icon-recycle:before {
+  content: "\43";
+}
+.icon-right:before {
+  content: "\44";
+}
+.icon-right-arr:before {
+  content: "\45";
+}
+.icon-search:before {
+  content: "\46";
+}
+.icon-security:before {
+  content: "\47";
+}
+.icon-star:before {
+  content: "\49";
+}
+.icon-test-drive:before {
+  content: "\4a";
+}
+.icon-three-dots:before {
+  content: "\4b";
+}
+.icon-three-lines:before {
+  content: "\4c";
+}
+.icon-triple:before {
+  content: "\4d";
+}
+.icon-twitter:before {
+  content: "\4e";
+}
+.icon-upper:before {
+  content: "\4f";
+}
+.icon-user:before {
+  content: "\50";
+}
+.icon-versus:before {
+  content: "\51";
+}
+.icon-voice-call:before {
+  content: "\52";
+}
+.icon-youtube:before {
+  content: "\53";
+}
+.icon-quality:before {
+  content: "\54";
+}
+.icon-correct-team:before {
+  content: "\55";
+}
+.icon-download:before {
+  content: "\56";
+}
+.icon-warning:before {
+  content: "\57";
+}
+.icon-share:before {
+  content: "\48";
+}
+.icon-download-2:before {
+  content: "\58";
+}
+
