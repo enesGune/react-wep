@@ -1,0 +1,122 @@
+- npx create-react-app react-app (react-app adında klasör oluşturulup onun içine react kuruluyor)
+
+- yarn start
+
+- src'nin içine gerekli klasörler oluşturulur. (assets, constants, components, pages, reducers)
+
+----------------------------------------------------------- components -> routesComponent.js
+
+import React, {Component} from 'react';
+
+class RoutesComponent extends Component{
+    render() {
+        return (
+            <div>
+                
+            </div>
+        );
+    }
+}
+
+export default RoutesComponent;
+
+----------------------------------------------------------- pages -> homePage.js
+
+import React, {Component} from "react";
+
+class HomePageComponent extends Component{
+    render() {
+        return (
+            <div>
+
+            </div>
+        );
+    }
+}
+
+export default HomePageComponent;
+
+----------------------------------------------------------- constants -> routePaths.js
+
+export const HOME_PAGE = "/home";
+
+----------------------------------------------------------- reducers -> index.js
+
+import{combineReducers} from 'redux';
+
+const combineRed = combineReducers({
+
+});
+
+export default combineRed
+
+
+----------------------------------------------------------- App.js içine
+
+import React, {Component} from "react";
+import RoutesComponent from "./components/routesComponent";
+
+class App extends Component{
+  render() {
+    return (
+        <div>
+          <RoutesComponent/>
+        </div>
+    );
+  }
+}
+
+
+export default App;
+
+
+
+----------------------------------------------------------- components -> routesComponent.js değişiklikleri div'in içine
+
+import {Route} from 'react-router-dom'
+
+
+<Route exact path={HOME_PAGE} component={HomePageComponent}/>
+
+----------------------------------------------------------- 
+
+npm i --save react-router-dom
+
+-----------------------------------------------------------
+
+başka projedeki index.js'in const bloğunu ve importları bu projedeki index.js'e kopyala.
+başka projedeki package.json'ının hepsini kopyala bu projedeki package.json'a at.
+
+react klasörünün dışındaki yack ve package.json'ı sil.
+-----------------------------------------------------------
+
+rm -r node_modules
+
+cd react
+
+yarn install 
+
+-----------------------------------------------------------
+
+phpstorm'u aç kapat.
+
+cd react
+npm run start
+
+-----------------------------------------------------------
+
+başka projedeki assets -> styles klasörünü kopyala bu projedeki assets -> styles'a at.
+SCSS filewatchers kur.
+
+PROJE ARTIK ÇALIŞIYOR.
+
+
+
+
+
+
+
+
+
+
+
